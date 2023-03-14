@@ -1,0 +1,347 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #eee;
+}
+.cont{
+    margin: auto;
+    width: 90vw;
+}
+.cont section{
+    width: 100%;
+    height: 90vh;
+    padding: 50px;
+    background-color: #fff;
+    margin-top: 50px;
+    
+}
+
+.one{
+    position: relative;
+}
+.images-sect{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    right: 50px;
+    top:150px;
+    gap: 20px;
+}
+.img-cont{
+    width: 50%;
+    height: 600px;
+    
+
+}
+.img-cont img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.one h2{
+    font-weight: 400;
+    font-size: 1.6rem;
+    position: relative;
+}
+.one h2::after{
+    content: "";
+    height: 2px;
+    width: 70%;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    background-color: rgb(68, 67, 67);
+}
+.one h1{
+    width: 10%;
+    font-size: 4rem;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    font-weight: bold;
+}
+
+
+.two{
+    position: relative;
+    
+}
+.two h2{
+    font-weight: 400;
+    font-size: 1.6rem;
+    position: relative;
+}
+
+.two h2::after{
+    content: "";
+    height: 2px;
+    width: 70%;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    background-color: rgb(68, 67, 67);
+}
+.sect-two{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 50px;
+}
+.sect-two .img-cont{
+    width: 50%;
+
+}
+.sect-two .img-cont img{
+    max-width: 100%;
+}
+.sect-two p{
+    max-width: 40%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+
+}
+
+
+
+.three{
+    position: relative;
+    
+    
+}
+.three-cont{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.three h2{
+    font-weight: 400;
+    font-size: 1.6rem;
+    position: relative;
+
+}
+.three h2::after{
+    content: "";
+    height: 2px;
+    width: 70%;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    background-color: rgb(68, 67, 67);
+}
+.three .img-cont{
+    width: 80%;
+    height: 300px;
+}
+.three .img-cont img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-ex{
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 50px;
+}
+
+.info-ex li{
+    font-size: 1.2rem;
+    padding: 5px;
+    color: #3d3c3c;
+}
+
+
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.four h2{
+    font-weight: 400;
+    font-size: 1.6rem;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 90%;
+
+}
+.four h2::after{
+    content: "";
+    height: 2px;
+    width: 70%;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    background-color: rgb(68, 67, 67);
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+.cards .img-cont{
+    width: 100%;
+}
+/* .cards .img-cont:hover{
+    width: 110%;
+} */
+.cards .img-cont img{
+    max-width: 100%;
+}
+
+
+.five{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.right{
+    width:80%;
+    height: 100%;
+}
+.right .img-cont{
+    width: 100%;
+    height: 100%;
+}
+.right .img-cont img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left p{
+    max-width: 40%;
+    font-size: 1.8rem;
+    text-align: center;
+
+}
+
+.six{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.six h2{
+    font-weight: 400;
+    font-size: 1.6rem;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 90%;
+
+}
+.six h2::after{
+    content: "";
+    height: 2px;
+    width: 70%;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    background-color: rgb(68, 67, 67);
+}
+.sect-six{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    grid-template-rows: 60% 40%;
+    gap: 10px;
+}
+.sect-six .img-cont{
+    width: 100%;
+    background-color: #3d3c3c;
+}
+.second{
+    grid-column: 2/3;
+    height: 100%;
+}
+.info{
+    text-align: end;
+    max-width: 15%;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+.info h1{
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+.info p{
+    font-size: 1.3rem;
+    color: #3b3939;
+}
+
+.seven{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.bold{
+    font-size: 4rem;
+    max-width: 10%;
+}
+.foot{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.sect p{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    
+}
+.btn{
+    padding: 10px  30px ;
+    background-color: #fff;
+    border: 1px solid #000;
+}
